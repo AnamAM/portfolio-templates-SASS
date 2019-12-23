@@ -1,0 +1,5 @@
+/* If you don't want your default font size to be 16px, you can change that by dividing what you want. In this case, I want 10px as my default, so I will simply do 16/10 tp get .625 and multiply that by 100 to get 62.5% */
+html {
+    font-size: 62.5%;
+}
+
