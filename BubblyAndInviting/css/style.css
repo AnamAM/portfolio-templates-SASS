@@ -46,6 +46,7 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .heading-primary {
@@ -67,6 +68,21 @@ body {
     letter-spacing: 0.75rem;
 }
 
+.btn {
+    background-color: #fff;
+    color: #777; 
+    text-transform: uppercase;
+    text-decoration: none;
+    /* top padding and bottom padding */
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative;
+    font-size: 1.6rem;
+    border: none;
+    cursor: pointer; 
+}
 
 .row {
     /* max-width helps to adjust to any smaller screen */
