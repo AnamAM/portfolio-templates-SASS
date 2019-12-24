@@ -34,7 +34,7 @@ body {
 
 .header {
     text-transform: uppercase;
-    background-image: linear-gradient(to left, rgb(65, 179, 163, 0.8), rgb(133, 220, 179, 0.8));
+    background-image: linear-gradient(to left, rgb(65, 179, 163, -0.5), rgb(133, 220, 179, 0.8)), url(../img/bia-andrade-PO8Woh4YBD8-unsplash.jpg);
     height: 95vh;
     background-size: cover;
     background-position: top;
