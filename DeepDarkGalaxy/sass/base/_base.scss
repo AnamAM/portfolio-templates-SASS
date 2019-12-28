@@ -13,6 +13,21 @@ html {
     font-size: 62.5%;
 }
 
-body { 
-    box-sizing: border-box;
+// body { 
+//     box-sizing: border-box;
+// }
+
+body {
+  background: black;
+  height: 100%;
+  min-height: 100%;
+}
+
+#canvas {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
 }
