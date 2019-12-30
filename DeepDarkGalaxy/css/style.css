@@ -108,6 +108,9 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
+.u-padding-left {
+  padding: 2.5rem; }
+
 .bio {
   background-color: #0d0133;
   padding: 3rem 20rem 3rem 20rem; }
@@ -161,6 +164,19 @@ body {
   /* 0% styles on @keyframes moveInButton will be applied before the animation starts */
   animation-fill-mode: backwards; }
 
+.contact__icon {
+  font-size: 7rem;
+  color: #bebcbc;
+  cursor: pointer;
+  transition: transform .3s; }
+  .contact__icon:hover {
+    transform: translateY(-1.5rem) scale(1.03); }
+
+.footer__copyright {
+  color: #f7f7f7;
+  padding: 1.5rem 0 1.5rem 0;
+  font-size: 1.6rem; }
+
 .skills-row {
   background-color: #222222;
   border-radius: 4px;
@@ -176,7 +192,7 @@ body {
     text-align: center;
     font-size: 1.5rem; }
 
-.fas {
+.icon {
   color: white;
   font-size: 2rem; }
 
@@ -247,4 +263,7 @@ body {
   margin: 0; }
 
 .section-projects {
-  color: #fff; }
+  padding: 0 0 15rem 0; }
+
+.section-footer {
+  background-image: linear-gradient(to right, #3500D3, #0d0133); }
