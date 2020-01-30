@@ -90,6 +90,20 @@ body {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
+.heading-tertiary {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-color: #3500D3;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem;
+  transition: all .2s; }
+  .heading-tertiary:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+
 .u-center-text {
   text-align: center !important; }
 
@@ -264,7 +278,7 @@ body {
   padding: 0;
   color: #fff;
   text-align: center;
-  font-size: 1.5em; }
+  font-size: 2.5em; }
 
 .container .card .face.face2 {
   position: relative;
@@ -363,5 +377,5 @@ body {
 .section-contact {
   padding: 0 0 5rem 0; }
 
-.section-footer {
-  background-image: linear-gradient(to right, #3500D3, #0d0133); }
+.section-resume {
+  padding: 0 0 5rem 0; }
